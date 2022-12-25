@@ -1,0 +1,364 @@
+░░░░░░░▄░░▄░░░░░░░░░░░░░░░░░░
+░░░░░░██▄██░░░░░░░░░░░░░░░░░░
+░░░░▄██████░░░░░░░░░░░░░░░░░░
+░░░▄█████▄██▄▄▄▄░░░░░░░░▄▄▄▄▄
+░░████████████▀░░░░░░░▄█████░
+░▄████████▀▀▀░░░░░░░▄██████░░
+░█████████▄▄░░░░░░░░███████░░
+░░██████████▄░░░░░░░███████░░
+░░▀████████████░░░░░███████░░
+░░░█████████████▄░░░███████░░
+░░░██████████████▄░░███████░░
+░░░███▀███████████░░███████░░
+░░▄██░░░███████████░█████▀░░░
+███▀░░████████████▀██▀▀▀░░░░░
+
+vars:
+
+main integer:
+AVAswitch
+AVAmenu
+AVAfunction
+AVAfunction2
+action
+
+teleport blends float: 
+TP_Z1
+
+teleport blends floats:
+TP_tY1
+TP_tX
+TP_tY2
+TP_tX2
+
+locomotion blends floats:
+locoY
+locoZ
+
+float:
+paw_move_Y
+
+bool:
+Mute
+
+bool:
+TP
+(teleport)
+
+bool:
+fly
+
+bool:
+test
+
+AVAswitch
+
+2
+3
+boost
+
+4
+5
+flashlight
+
+6
+7
+breathing
+
+8
+9
+spawn
+
+10
+11
+female
+
+
+13
+loco
+
+loco off
+12
+
+14
+reset view
+
+15
+legs
+
+16
+move_view
+
+paw_move
+18
+ 
+
+
+
+
+
+
+
+--menu 4
+
+21
+display
+20
+
+22
+fullscreen
+21
+
+23
+Chromakey
+24
+
+25
+advanced
+26
+
+forward
+27
+28
+
+
+
+
+30
+draw_off
+
+31
+draw_on
+
+40
+41
+Draw_R
+
+
+spawn 
+menu 5
+spawn 1
+50
+51
+Spawn1
+
+spawn 2
+60
+61
+Spawn2
+
+70
+71
+trail on
+
+
+
+drone zero point
+90
+
+drone forward
+91
+
+back
+92
+
+left
+93
+
+right
+94
+
+up
+95
+
+down
+96
+
+
+
+springball_r
+120
+121
+
+springball_l
+130
+131
+
+
+
+
+
+
+ava_functions
+OFF ALL
+1
+
+ava scale
+menu 10
+11 yScale_1
+12 yScale_2
+
+
+teleport offsets:
+menu 20
+21 yTp_forward_500
+22 yTp_forward_1000
+23 yTp_forward_2000
+24 yTp_down_10
+
+
+draw on anims:
+yDrawOn.anim
+yDraw_R
+yDraw_L
+
+draw colors:
+menu 30 
+31 yDrawL1
+32 yDrawL2
+
+menu 40
+41 yDrawR1
+42 yDrawR2
+
+
+white
+black
+red
+blue
+green
+yellow
+pink
+
+spawns anims:
+ySpawn1_place
+ySpawn1_place
+
+items on spawns:
+menu 50 
+51 ySpawn1_i1
+52 ySpawn1_i2
+53 ySpawn1_i3
+
+menu 60
+61 ySpawn2_i1
+62 ySpawn2_i2
+63 ySpawn2_i3
+
+
+
+
+yItem_head_1
+menu 70
+71
+72
+
+
+yItem_left_paw_1
+menu 80
+81
+92
+
+yItem_right_paw_1
+menu 90
+91
+92
+
+yItem_hips_1
+menu 100
+101
+
+yItem_chest_forward_1
+menu 110
+111
+112
+
+springball_r
+menu 120
+121
+122
+
+springball_l
+menu 130
+131
+132
+
+yItem_tail_1
+menu 140
+141
+142
+
+audio
+menu 150
+151
+
+
+music
+menu 170
+171
+
+spawn 0
+menu 180
+181
+
+OwO
+menu 190
+191 snoot
+192 blep
+193 particle
+195 firewall
+
+
+yClothes_bottom_1
+menu 200
+201
+
+yClothes_top_1
+menu 210
+211
+
+ava body materials
+menu 220
+221
+
+
+yClothes_other_1
+menu 230
+231
+
+tail_motions
+menu 240
+241
+
+
+
+AVAfunction2
+
+
+menu 16
+ava_top_c_meterial
+21
+
+menu 17
+ava_bottom_c_material
+31
+
+
+menu 21
+yItem_left_leg_1
+51
+
+menu 22
+yItem_right_leg_1
+61
+
+menu 23
+
+71
+
+
+72
+
+
+
+action

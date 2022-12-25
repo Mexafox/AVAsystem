@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: ava_Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: OFF_ALL
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAfunction
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 06194a5bd8517d64eae9f37522918424, type: 2}
+    subParameters: []
+    labels: []
+  - name: items
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 5543fd188183c0341a3ed52a6de46b10, type: 2}
+    subParameters: []
+    labels: []
+  - name: fly
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: fly
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: flashlight
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 3
+    style: 0
+    subMenu: {fileID: 11400000, guid: 75ef4a762485c7d41b9c948722e98224, type: 2}
+    subParameters: []
+    labels: []
+  - name: actions
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 3dba97494941cf546b800e9c5c7a2566, type: 2}
+    subParameters: []
+    labels: []
+  - name: space_mover
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 95c1a4c6c49e03d48892f66bf647c19e, type: 2}
+    subParameters: []
+    labels: []

@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: ava_Vars
+  m_EditorClassIdentifier: 
+  parameters:
+  - name: AVAswitch
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: AVAmenu
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: AVAfunction
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: AVAfunction2
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: action
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: fly
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: Mute
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TP
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: locoY
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: locoZ
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: TP_tY1
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: TP_tX
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: TP_tY2
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: TP_tX2
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: TP_Z1
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: paw_move_Y
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+  - name: test
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: PuppetInt
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: ControlH
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: ControlV
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: BellyFull
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: Claws
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: MaterialInt
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: Fat
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: SlowerFace
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: SlowerEars
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: SlowerFthrs
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: EyeSlit
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: EyeSlitHalf
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: EyeBig
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: EyeSmall
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsUp
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsDown
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: EarsUp
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: EarsDown
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TailUp
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TailDown
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TailWag
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: CreditsOut
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: CreditsToSelf
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+  - name: FthrsHeadOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsBackOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsElbowsOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsWristsOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsTailBaseOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: FthrsTailTipOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TailMeshOff
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TailFloof
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: ToesSpread
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: NoPat
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: NoBoop
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: BellyDyn
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: NoToeGroundCurl
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: NoToeCurl
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TialCurlLeft
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: TialCurlRight
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: kachok
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: NoToeSpreadUp
+    valueType: 2
+    saved: 1
+    defaultValue: 0
