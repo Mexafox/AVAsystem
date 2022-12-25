@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: clothes_materials
+  m_EditorClassIdentifier: 
+  controls:
+  - name: top
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 16
+    style: 0
+    subMenu: {fileID: 11400000, guid: be716891fe16b1e4bac84b9ca49e2a63, type: 2}
+    subParameters: []
+    labels: []
+  - name: bottom
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 17
+    style: 0
+    subMenu: {fileID: 11400000, guid: 147dea29fc525c348a6dadd000ccd07c, type: 2}
+    subParameters: []
+    labels: []
+  - name: body
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 220
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6fa253a1317cef449b08dc44f618ecfb, type: 2}
+    subParameters: []
+    labels: []

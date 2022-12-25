@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: items2
+  m_EditorClassIdentifier: 
+  controls:
+  - name: left_paw
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 80
+    style: 0
+    subMenu: {fileID: 11400000, guid: c2f0e33c22ae0d240a12c664f0303fd6, type: 2}
+    subParameters: []
+    labels: []
+  - name: right_paw
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 90
+    style: 0
+    subMenu: {fileID: 11400000, guid: 3ffc63c879ac4934da1793bad446a900, type: 2}
+    subParameters: []
+    labels: []
+  - name: head
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 70
+    style: 0
+    subMenu: {fileID: 11400000, guid: 52ad022366622a34a9ffe4b4d561cdf8, type: 2}
+    subParameters: []
+    labels: []
+  - name: chest
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 110
+    style: 0
+    subMenu: {fileID: 11400000, guid: ea198a7160b808b409b68a75eae5668f, type: 2}
+    subParameters: []
+    labels: []
+  - name: left_leg
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 21
+    style: 0
+    subMenu: {fileID: 11400000, guid: b9ff4860eeb1b2f4aaadfe8a09fe32e7, type: 2}
+    subParameters: []
+    labels: []
+  - name: right_leg
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 22
+    style: 0
+    subMenu: {fileID: 11400000, guid: 96dcabedec9a13a41b3ea1a58605239a, type: 2}
+    subParameters: []
+    labels: []
+  - name: hips
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 100
+    style: 0
+    subMenu: {fileID: 11400000, guid: 2b56704a6d19b6b45bc450fe4116d1bf, type: 2}
+    subParameters: []
+    labels: []
+  - name: tail
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: AVAmenu
+    value: 140
+    style: 0
+    subMenu: {fileID: 11400000, guid: 87e55ded481b6314bb6278fe73748846, type: 2}
+    subParameters: []
+    labels: []
