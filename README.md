@@ -3,7 +3,15 @@ My avatar functionality system in VR Chat. Made in the form of a menu system, an
 READMEen.txt
 owo
 This menu and functionality system for VRChat avatars allows you to quickly install a menu with support for your elements and objects on an avatar when editing it in the Unity editor and subsequently transfer it as easily as possible to new versions of the avatar bases when they are updated. Among the functions there is an analogue of the space mover, flight, flashlight, acceleration, change of clothes, change of materials (textures), dances and sounds, display of objects, spawning of objects (prefabs) in the world, resizing of the avatar, springballs, trails, free camera, teleport ( teleports only other players within the world), animation control and much more.
-Installation from scratch:
+
+More clearly and in detail the installation and configuration of AVAsystem is shown in my video
+AVAsystem
+https://youtu.be/sLGCRG795Ho
+on my channel
+https://www.youtube.com/@mexafox
+I did not make an English version with English voice acting due to the lack of sufficient interest of subscribers in the English versions of my videos, despite the significant laboriousness for me to create them. If you are interested in the English version, you can write about it in the comments to the video. If there is sufficient demand, I will definitely make a quality offer.
+
+Installation: 
 
 1. launch manually pre-installed unity editor version 2019.4.31f1 via unity hub
 https://unity3d.com/unity/whats-new/2019.4.31
@@ -102,14 +110,25 @@ and many more sources (for example, animations copied from various freely distri
 Therefore, the project is free and free in terms of distribution and modification, please do not delete the authors from this file and do not forget to add yourself at the end with a list of your changes, so that users know their saviors and benefactors,
 
 Mexafox (Alex Miller)
+more than 180 hours spent on work
 Added:
 control menu, animation controllers action, additive, FX, variables (vars.txt file, which lists all variables with their descriptions, ava_vars.asset file with variables from AVAsystem and rexouium), flight mode, bright flashlight, accelerator, analogue of Space mover ( Locomotion) on 2 axes, animations of standing, lying, dancing, sound, switching materials, switching objects on the limbs and torso of the avatar, collider scoop, drawing system, springballs with object selection, camera system with full screen mode and chroma key, camera positioning points, advanced camera positioning mode, binding stations configured for teleport to the camera (you can teleport other players to a point in front of the camera), trails (tails behind the character), avatar scaling, tail movements, turning off breathing for the rexouium avatar, fixing the hood muscles, switching to the female version of rexouium , right forepaw raise, item spawner in front of avatars, two separate object spawners with reference to the world ( the object selected through the menu is fixed in the world and remains in place, even if the avatar itself moves in the world), a "collider wall" flying forward with a fireball (strongly pushes objects on the map that the avatar itself can push), the choice of particle effects (particle).
+
+
 
 
 READMEru.txt
 OwO
 Это система меню и функционала для аватаров VRChat позволяет быстро устанавливать меню с поддержкой своих элементов и объектов на аватара при его редактирование в Unity editor и в последующем максимально легко переносить ее на новые версии основ аватара, при их обновлении. Среди функций имеется аналог space mover, полет, фонарик, ускорение, смена одежды, смена материалов (текстурок), танцы и звуки, показ объектов, спаун объектов (префабов) в мир, изменение размера аватара, спрингболлы, трэилы, свободная камера, телепорт (телепортирует в пределах мира только других игроков), управление анимациями и многое другое. 
-Установка с нуля: 
+
+Более наглядно и подробно установка и настройка AVAsystem показана на моем видео 
+AVAsystem
+https://youtu.be/sLGCRG795Ho
+на моем канале
+https://www.youtube.com/@mexafox
+Английскую версию с английской озвучкой я не делал по причине отсутствия достаточного интереса подписчиков к английским версиям моих видео при значительной для меня трудоемкости их создания. Если Вас интересует английская версия, то можете написать об этом в комментариях к видео. Если будет достаточный спрос, то я обязательно сделаю качественное предложение.
+
+Установка: 
 
 1. запустить через unity hub предварительно установленный вручную unity editor версии 2019.4.31f1
 https://unity3d.com/unity/whats-new/2019.4.31
@@ -208,5 +227,6 @@ https://discord.gg/rexouria
 Поэтому проект бесплатный и свободный в плане распространения и модификации, просьба только авторов из этого файлика не стирать и себя не забыть в конце добавить с перечнем своих изменений, чтобы пользователи знали своих спасителей и благодетелей, 
 
 Mexafox (Alex Miller)
+потрачено более 180 часов
 Добавлено: 
 меню управления, контроллеры анимаций action, additive, FX, переменные (файл vars.txt, где перечислены все переменные с их описанием, файл ava_vars.asset с переменными от AVAsystem и rexouium), режим полета, яркий фонарик, ускоритель, аналог Space mover (Locomotion) по 2 осям, анимации стояния, лежания, танец, звук, переключение материалов, переключение предметов на конечностях и торсе аватара, коллайдерный совочек, система рисования, спрингболлы с выбором объекта, система камеры с полноэкранным режимом и хромакеем, точки позиционирования камеры, продвинутый режим позиционирования камеры, привязка настроенных под телепорт станций к камере (можно телепортировать других игроков в точку перед камерой), трэйлы (шлейфы за персонажем), масштабирование аватара, движения хвоста, отключение дыхания для аватара rexouium, фикс бленда muscles, переключение на женскую версию rexouium, подъем правой передней лапы, спаунер предметов перед аватаров, два отдельных спаунера объектов с привязкой к миру (выбранный через меню объект фиксируется в мире и остается на месте, даже если сам аватар двигается в мире), вылетающая вперед "коллайдерная стена" с огненным шаром (сильно толкает объекты на карте, которые может толкать сам аватар), выбор эффектов частиц (particle).
